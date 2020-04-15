@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { merge, mergeSort } = require('../lib/merge_sort.js');
+const { merge, mergeSort } = require('./merge_sort.js');
 
 
 describe('merge()', () => {

@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { binarySearch, binarySearchIndex } = require('../lib/binary_search.js');
+const { binarySearch, binarySearchIndex } = require('./binary_search.js');
 
 
 describe('binarySearch', () => {
