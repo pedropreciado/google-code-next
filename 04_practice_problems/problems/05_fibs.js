@@ -34,4 +34,10 @@ function fibs(num) {
 }
 
 // DO NOT MODIFY UNDER THIS LINE
+
+console.log("-----TESTS FOR fibs()-----");
+console.log("it should return the 2nd fibonacci number");
+console.log("Test 1 Passed?: ", fibs(2) === 1);
+console.log("Test 2 Passed?: ", fibs(4) === 3);
+
 module.exports = fibs;

@@ -16,6 +16,11 @@ function numOfSteps(num) {
   // Enter your code here.
 }
 
-
 // DO NOT MODIFY UNDER THIS LINE
+
+console.log("-----TESTS FOR numOfSteps()-----");
+console.log("it should return correct number of steps");
+console.log("Test 1 Passed?: ", numOfSteps(14) === 6);
+console.log("Test 2 Passed?: ", numOfSteps(0) === 0);
+
 module.exports = numOfSteps;

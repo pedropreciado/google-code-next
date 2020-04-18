@@ -10,9 +10,17 @@
  * Ex: numJewelsInStones("aA", "aAAbbbb") => 3 , since "aA" appears in "aAAbbbb" 3 times.
  */
 
-var jewelsAndStones = function(jewels, stones) {
+var jewelsAndStones = function (jewels, stones) {
 
 };
 
 // DO NOT MODIFY UNDER THIS LINE
+
+console.log("-----TESTS FOR jewelsAndStones()-----");
+console.log("it should return correct number of jewels");
+console.log("Test 1 Passed?: ", jewelsAndStones('aA', 'aAaAbbaAbb') === 3);
+console.log("Test 2 Passed?: ", jewelsAndStones('aAb', 'AaAbaabAbbb') === 1);
+console.log("it should be case sensitive");
+console.log("Test 3 Passed?: ", jewelsAndStones('jewels', 'JEWEL') === 0);
+
 module.exports = jewelsAndStones;

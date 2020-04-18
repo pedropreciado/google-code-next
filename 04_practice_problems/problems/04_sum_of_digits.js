@@ -20,8 +20,17 @@
  */
 
 function sumOfDigits(num) {
- // Enter code here.
+  // Enter code here.
 }
 
 // DO NOT MODIFY UNDER THIS LINE
+
+console.log("-----TESTS FOR sumOfDigits()-----");
+console.log("should return 21 if input is 687");
+console.log("Test 1 Passed?: ", sumOfDigits(687) === 21);
+console.log("should return 3 if input is 12");
+console.log("Test 2 Passed?: ", sumOfDigits(12) === 3);
+console.log("should return 5 if the input is 5");
+console.log("Test 3 Passed?: ", sumOfDigits(5) === 5);
+
 module.exports = sumOfDigits;

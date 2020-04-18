@@ -21,4 +21,11 @@ function numOfSmallerNums(nums) {
 }
 
 // DO NOT MODIFY UNDER THIS LINE
+
+console.log("-----TESTS FOR numOfSmallerNums()-----");
+console.log("it should return the correct number of smaller numbers in the array");
+console.log("Test 1 Passed?: ", numOfSmallerNums([8, 1, 2, 2, 3]) === [4, 0, 1, 1, 3]);
+console.log("should return array of zeros if all numbers are the same");
+console.log("Test 2 Passed?: ", numOfSmallerNums([7, 7, 7, 7, 7]) === [0, 0, 0, 0, 0]);
+
 module.exports = numOfSmallerNums;
