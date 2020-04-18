@@ -28,4 +28,4 @@ which node # => /Users/username/.nvm/versions/node/v10.13.0/bin/node
 In your terminal type: node <your_script>.js
 
 ## Running practice problems
-Visit [practice problems README](./04_practice_problems/README.md)
+Visit [practice problems README](./04_practice_problems)
