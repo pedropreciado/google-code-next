@@ -1,5 +1,5 @@
 const assert = require('assert');
-const numOfSteps = require('../solutions/01_num_of_steps');
+const numOfSteps = require('../problems/01_num_of_steps');
 
 describe('1_num_of_steps.js', () => {
   describe('numOfSteps', () => {

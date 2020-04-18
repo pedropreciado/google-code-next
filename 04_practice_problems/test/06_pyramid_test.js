@@ -1,5 +1,5 @@
 const assert = require('assert');
-const pyramid = require('../solutions/06_pyramid');
+const pyramid = require('../problems/06_pyramid');
 
 describe('06_pyramid.js', () => {
   describe('pyramid', () => {

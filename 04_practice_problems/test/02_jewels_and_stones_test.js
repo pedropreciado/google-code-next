@@ -1,5 +1,5 @@
 const assert = require('assert');
-const jewelsAndStones = require('../solutions/02_jewels_and_stones');
+const jewelsAndStones = require('../problems/02_jewels_and_stones');
 
 describe('02_jewels_and_stones.js', () => {
   describe('jewelsAndStones', () => {

@@ -9,7 +9,14 @@
 // sum_array([5, 2])         # => 7
 // sum_array([4, 10, -1, 2]) # => 15
 function sumArray(array) {
+  if (array.length === 0) {
+    return 0;
+  }
+  if (array.length === 1) {
+    return array[0];
+  }
 
+  return array[0] + sumArray(array.slice(1));
 }
 
 // TESTS - all of these should pass (i.e. equal true)
@@ -35,7 +42,10 @@ console.log("Test 4 Passed?: ", sumArray([4, 10, -1, 2]) === 15)
 // pow(3, 4) # => 81
 // pow(4, 3) # => 64
 function pow(base, exponent) {
-
+  if (exponent === 0) {
+    return 1;
+  }
+  return base * pow(base, exponent - 1);
 }
 
 // TESTS - all of these should pass (i.e. equal true)
@@ -55,7 +65,10 @@ console.log("Test 4 Passed?: ", pow(4, 3) === 64);
 // A factorial is the product of all whole numbers between 1 and n, inclusive.
 // For example, `factorial(5)` is 5 * 4 * 3 * 2 * 1 = 120.
 function factorial(num) {
-
+  if (num <= 1) {
+    return 1;
+  }
+  return num * factorial(num - 1);
 }
 
 // TESTS - all of these should pass (i.e. equal true)

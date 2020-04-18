@@ -1,5 +1,5 @@
 const assert = require('assert');
-const numOfSmallerNums = require('../solutions/03_number_of_smaller_nums');
+const numOfSmallerNums = require('../problems/03_number_of_smaller_nums');
 
 describe('03_num_of_smaller_nums.js', () => {
   describe('numOfSmallerNums', () => {

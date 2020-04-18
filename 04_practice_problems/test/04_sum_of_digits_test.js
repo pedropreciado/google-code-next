@@ -1,5 +1,5 @@
 const assert = require('assert');
-const sumOfDigits = require('../solutions/04_sum_of_digits');
+const sumOfDigits = require('../problems/04_sum_of_digits');
 
 describe('04_sum_of_digits.js', () => {
   describe('sumOfDigits', () => {

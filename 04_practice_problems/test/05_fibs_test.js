@@ -1,5 +1,5 @@
 const assert = require('assert');
-const fibs = require('../solutions/05_fibs');
+const fibs = require('../problems/05_fibs');
 
 describe('05_fibs.js', () => {
   describe('fibs', () => {
