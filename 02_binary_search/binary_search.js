@@ -39,8 +39,3 @@ console.log("Binary Search Index Test 2 Passed?: ", binarySearchIndex([1, 2, , 3
 console.log("Binary Search Index Test 2 Passed?: ", binarySearchIndex([1, 2, , 3], 2) === 1);
 console.log("Binary Search Index Test 3 Passed?: ", binarySearchIndex([5, 10, 12, 15, 20, 30, 70], 24) === 1);
 console.log("Binary Search Index Test 4 Passed?: ", binarySearchIndex([], 3) === -1);
-
-module.exports = {
-    binarySearch,
-    binarySearchIndex
-};
