@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/eshoule/code_next_javascript_alogrithms#readme",
   "dependencies": {
-    "mocha": "^7.1.1"
+    "mocha": "^10.2.0"
   }
 }
